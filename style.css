@@ -1,0 +1,45 @@
+@font-face {
+    font-family: win;
+    src: url(Rectinos-Regular.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(mymoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.kepala {
+    width: 50%; 
+    padding: 50px;
+    background-color: rgba(17, 17, 17, 0.767);
+    border-radius: 10px;
+    margin: 50px auto;
+    align-items: center;
+}
+.kepala h1 {
+    font-family: win;
+}
+img {
+    width: 5rem;
+    border-radius: 50%  ;
+}
+
+@media screen and (max-width) {
+    .kepala {
+        width: 50%; 
+        padding: 50px;
+        background-color: rgba(17, 17, 17, 0.767);
+        border-radius: 10px;
+        margin: 50px auto;
+        align-items: center;
+    }
+}
